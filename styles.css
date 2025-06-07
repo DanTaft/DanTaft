@@ -1,0 +1,136 @@
+/* Place your CSS styles in this file */
+  .container {
+    display: grid;
+    justify-content: center;
+  }
+  #review-container {
+    max-width: 500px;
+    padding: 20px;
+    border-left: 4px solid #007BFF;
+    background: #f9f9f9;
+    margin: 20px auto;
+    transition: all 0.5s ease;
+  }
+
+  blockquote {
+    margin: 0 0 10px;
+    font-style: italic;
+  }
+
+  cite {
+    display: block;
+    text-align: right;
+    color: #555;
+  }
+
+
+
+.nav {
+  background-color: rgb(225, 229, 32); 
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  border-radius: 50%;
+  ;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px;
+}
+h1 {
+    text-align: left;
+    }
+
+.image-container img {
+    width: 100%; /* This will make the image take up the full width of the container */
+}
+.image-container {
+
+            display: grid;
+            justify-items: center;
+            
+            
+        }
+
+        .image-box {
+            width: 75%; /* one columns */
+
+           
+            
+        }
+
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+         
+        
+
+.container {
+  display: flex;
+  
+  
+}
+
+.heading-box {
+  flex: 1;
+  background-color: #f2f2f2b0;
+  background-image: -webkit-linear-gradient(rgb(80, 80, 237), #f2f2f2);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  
+  border: 1px;
+  border-radius: 20px;
+
+}
+
+
+figcaption {
+  text-align: center;
+  font-style:italic;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+img{
+  width: max-width 100%;
+  height: auto;
+}
+
+.box {
+  flex: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  background-image: -webkit-linear-gradient(#f2f2f2, #cccccc);
+  border: 3px;
+  
+  margin: 30px;
+  padding: 20px;
+
+}
+
+
+
+
+
+
+        h2 {
+        
+        text-align: center;
+        
+        }
+
+
+   
+a:hover {
+ background-color: #FFFFE0;
+
+}
+  
+  

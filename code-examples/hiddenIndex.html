@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.hidden-element {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Hidden Element Example</h2>
+
+<p>This paragraph is visible.</p>
+
+<button onclick="toggleVisibility()">Toggle Visibility</button>
+
+<p id="hidden-paragraph" class="hidden-element">This paragraph is hidden using CSS.</p>
+
+<script>
+function toggleVisibility() {
+  const element = document.getElementById("hidden-paragraph");
+  if (element.style.display === "none") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

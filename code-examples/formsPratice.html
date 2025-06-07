@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html type="en">
+<meta charset="UTF-8">
+<head>
+
+</head>
+<body>
+    <h2>share with us your contact info</h2>
+<form>
+ <form id="form" action="http://localhost:3000/submit-form" method="post">
+ <label for="fname">First Name</label><br>
+ <input type="text" id="fname" name="fname" value="" placeholder="name" required><br>
+ <label for="lname">Last Name</label><br>
+ <input type="text" id="lname" name="fname" value=""  placeholder="last name"required><br>
+ <input type="submit" value="submit">
+ 
+<h2>my favorite pizza toppings</h2>
+
+<input type="radio" id="html" name="fav_pizza" value="olives">
+  <label for="olives">olives</label><br>
+  <input type="radio" id="css" name="fav_pizza"
+" value="peppers">
+  <label for="peppers">peppers</label><br>
+  <input type="radio" id="sausage" name="fav_pizza"
+" value="sausage">
+  <label for="sausage">sausage</label>
+
+
+<h3>Top Vehicle used for recreation</h3>
+
+
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> bicycle or E-bicycle</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> an auto</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> a boat fishing or rec</label><br>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="Motorcycle">
+  <label for="vehicle4"> a Motorcycle</label><br>
+
+  <input type="button" value="Reset" onclick="myFunction()">
+        <label for="submit">Submit</label>
+ </form>
+<script>
+        function myFunction() {
+            document.getElementById("form").reset();
+        }
+    </script>
+</body>
+</html>
