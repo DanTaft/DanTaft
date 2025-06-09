@@ -3,7 +3,7 @@
     { text: "Everything looks SOOOOO GOOD!", author: "— Alexa" },
     { text: "Everything looks terrific here, we're excited!", author: "— Joey" },
     { text: "I LOVE THE PAINT !!! So happy!!", author: "— Duchie" },
-    { text: "Hi Dan, thank you so much for painting the bathroom. It looks so fresh and clean.", author: "— Penny" }
+    
   ];
 
   let currentIndex = 0;
