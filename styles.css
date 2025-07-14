@@ -17,12 +17,12 @@
     font-style: italic;
   }
 
-  cite {
+ /* cite {
     display: block;
     text-align: right;
     color: #555;
   }
-
+*/
 
 
 .nav {
@@ -102,18 +102,7 @@ img{
   height: auto;
 }
 
-/*.box {
-  flex: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  background-color: #f2f2f2;
-  background-image: -webkit-linear-gradient(#f2f2f2, #cccccc);
-  border: 3px;
-  
-  margin: 30px;
-  padding: 20px;
 
-}*/
 
 
 
@@ -141,3 +130,7 @@ a {
   font-size: medium;
 }
   
+.mission {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
